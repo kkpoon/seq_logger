@@ -1,0 +1,13 @@
+[package]
+name = "seq_logger"
+version = "0.1.0"
+authors = ["kkpoon <kkpoon@eml.cc>"]
+description = "logger with sequence number"
+license = "MIT"
+repository = "https://github.com/kkpoon/seq_logger"
+
+[dependencies]
+log = { version = "0.4", features = ["std"] }
+
+[badges]
+maintenance = { status = "experimental" }
